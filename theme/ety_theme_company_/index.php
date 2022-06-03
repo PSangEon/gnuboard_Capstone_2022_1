@@ -14,36 +14,36 @@ include_once(G5_THEME_PATH.'/head.php');
 <!-------------------------- 슬라이드 -------------------------->
 <header>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-	<!--ol class="carousel-indicators">
+	<ol class="carousel-indicators">
 	  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 	  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 	  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-	</ol-->
+	</ol>
 	<div class="carousel-inner" role="listbox">
 	  <!-- Slide One - Set the background image for this slide in the line below -->
 	  <div class="carousel-item active" style="background-image: url('<?php echo G5_THEME_URL?>/data/img/tempmain.png')">
-		<!--div class="carousel-caption d-none d-md-block">		
+		<div class="carousel-caption d-none d-md-block">		
 		  <h3 class="ko1">에티테마 커뮤니티</h3>
 		  <p class="ko1 f20">에티테마에 오시면 커뮤니티형, 비즈니스형 두가지 모두 다운로드 하실 수 있습니다.</p>
 		
-		</div-->
+		</div>
 	  </div>
 	  <!-- Slide Two - Set the background image for this slide in the line below -->
-	  <!--div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/background05.jpg')">
+	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/background05.jpg')">
 		<div class="carousel-caption d-none d-md-block">
 		  <h3 class="ko1">반응형 비즈니스 테마</h3>
 		  <p class="ko1 f20">그누보드5.3 / 5.4 와 연동되어 사용가능한 테마 입니다.</p>
 		</div>
-	  </div-->
+	  </div>
 	  <!-- Slide Three - Set the background image for this slide in the line below -->
-	  <!--div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/background01.jpg')">
+	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/background01.jpg')">
 		<div class="carousel-caption d-none d-md-block">
 		  <h3 class="ko1">ETY.KR</h3>
 		  <p class="ko1 f20">클릭하시면 에티테마 비즈니스 설치법으로 이동 합니다.</p>
 		</div>
-	  </div-->
+	  </div>
 	</div>
-	<!--a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 	  <span class="sr-only">Previous</span>
 	</a>
