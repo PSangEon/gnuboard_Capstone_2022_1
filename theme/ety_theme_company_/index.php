@@ -21,25 +21,43 @@ include_once(G5_THEME_PATH.'/head.php');
 	</ol>
 	<div class="carousel-inner" role="listbox">
 	  <!-- Slide One - Set the background image for this slide in the line below -->
-	  <div class="carousel-item active" style="background-image: url('<?php echo G5_THEME_URL?>/data/img/tempmain.png')">
+	  <div class="carousel-item active" style="background-image: url('<?php echo G5_THEME_URL?>/img/code.png')">
 		<div class="carousel-caption d-none d-md-block">		
-		  <h3 class="ko1">에티테마 커뮤니티</h3>
-		  <p class="ko1 f20">에티테마에 오시면 커뮤니티형, 비즈니스형 두가지 모두 다운로드 하실 수 있습니다.</p>
+		  <h1 class="ko1">
+		  <span style="text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;">
+			코드 생성
+			</span>
+			</h1>
+		  <p class="ko1 f20"><span style="text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;">
+			사용자 요구에 맞는 코드를 생성해줍니다.
+			</span></p>
 		
 		</div>
 	  </div>
 	  <!-- Slide Two - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/background05.jpg')">
+	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/community.jpg')">
 		<div class="carousel-caption d-none d-md-block">
-		  <h3 class="ko1">반응형 비즈니스 테마</h3>
-		  <p class="ko1 f20">그누보드5.3 / 5.4 와 연동되어 사용가능한 테마 입니다.</p>
+		<h1 class="ko1">
+		  <span style="text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;">
+			커뮤니티
+			</span>
+			</h1>
+		  <p class="ko1 f20"><span style="text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;">
+			정보를 공유해주세요	
+			</span></p>
 		</div>
 	  </div>
 	  <!-- Slide Three - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/background01.jpg')">
+	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/3D.png')">
 		<div class="carousel-caption d-none d-md-block">
-		  <h3 class="ko1">ETY.KR</h3>
-		  <p class="ko1 f20">클릭하시면 에티테마 비즈니스 설치법으로 이동 합니다.</p>
+		<h1 class="ko1">
+		<span style="text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;">
+			3D 도안
+			</span>
+			</h1>
+		  <p class="ko1 f20"><span style="text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;">
+			원하는 도안을 찾아보거나 제작하신 도안을 업로드 해주세요.
+			</span></p>
 		</div>
 	  </div>
 	</div>
