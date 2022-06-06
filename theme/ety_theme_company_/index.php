@@ -68,7 +68,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
 	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 	  <span class="sr-only">Next</span>
-	</a-->
+	</a>
   </div>
 </header>
 <div class="margin-top-80"></div>
