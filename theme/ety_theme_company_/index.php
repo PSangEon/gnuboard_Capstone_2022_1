@@ -21,7 +21,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	</ol>
 	<div class="carousel-inner" role="listbox">
 	  <!-- Slide One - Set the background image for this slide in the line below -->
-	  <div class="carousel-item active" style="background-image: url('<?php echo G5_THEME_URL?>/img/code.png')">
+	  <div class="carousel-item active" style="background-image: url('<?php echo G5_THEME_URL?>/img/code.png')" onclick="location.href='reiley.live/bbs/codemaker/codemaker.php'">
 		<div class="carousel-caption d-none d-md-block">		
 		  <h1 class="ko1">
 		  <span style="text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;">
@@ -96,7 +96,8 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 <!----날씨 api --->
-<iframe width="100%" height="245" src="https://forecast.io/embed/#lat=35.1788&lon=129.0759&name=부산&color=&font=arial&units=si" frameborder="0"></iframe>
+<iframe width="100%" height="245" 
+src="https://forecast.io/embed/#lat=35.1788&lon=129.0759&name=부산&color=&font=arial&units=si" frameborder="0"></iframe>
 
 <!-- /.container -->
 
